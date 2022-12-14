@@ -1,15 +1,21 @@
 {
+    "mode": "multi-file",
     "mapping": [{
         "tokensTheme": "Light",
-        "supernovaBrand": "Coca Cola",
+        "supernovaBrand": "Default",
         "supernovaTheme": null
     }, {
         "tokensTheme": "Dark",
-        "supernovaBrand": "Coca Cola",
+        "supernovaBrand": "Default",
         "supernovaTheme": "dark"
     }, {
         "tokensTheme": "High Contrast",
-        "supernovaBrand": "Coca Cola",
+        "supernovaBrand": "Default",
         "supernovaTheme": "highContrast"
-    }]
+    }],
+    "settings": {
+      "dryRun": false,
+      "verbose": false,
+      "preciseCopy": false
+    }
   }
