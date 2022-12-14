@@ -1,0 +1,15 @@
+{
+  "tokenSetOrder": [
+    "base/colors",
+    "base/coca-cola",
+    "base/radii",
+    "base/shadows",
+    "base/dimension",
+    "base/typography",
+    "themes/high contrast",
+    "themes/dark",
+    "themes/light",
+    "semantic/theme",
+    "semantic/typography"
+  ]
+}
