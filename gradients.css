@@ -1,0 +1,36 @@
+
+:root {
+    --gradientCocaColaGradient1: linear-gradient(
+          90deg,
+          #f40009 0%,   
+          #f42c06 15%,   
+          #f79900 47%,   
+          #dea123 57%,   
+          #a2b57b 80%,   
+          #6ac9ce 100%  
+        )
+        ;    
+    --gradientCocaColaGradient2: linear-gradient(
+          90deg,
+          #f40009 0%,   
+          #f42c06 15%,   
+          #f79900 47%,   
+          #dea123 57%,   
+          #a2b57b 80%,   
+          #6ac9ce 100%  
+        )
+        ;    
+    --gradientCocaColaGradient3: linear-gradient(
+          90deg,
+          #ed1c24 0%,   
+          #ec1f24 10%,   
+          #eb2b27 20%,   
+          #e93e2c 30%,   
+          #e75a32 40%,   
+          #e47c3a 49%,   
+          #e4803b 50%,   
+          #be9668 67%,   
+          #6ac9ce 100%  
+        )
+        ;    
+}
