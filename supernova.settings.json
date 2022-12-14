@@ -1,5 +1,15 @@
-$ supernova sync-tokens \
---apiKey="sn.LpCwT0ImtUnO5RmLaBDLTJ4XjiE7urmxmg8JBMXoX2pe7EBwTAzsR2RcaE4tmKMTAKy6awXZswijiyrDG2ln5RKcj1vGdCjS" \
---designSystemId="23385" \
---tokenDirPath "/tokens/" \
---configFilePath "/supernova.settings.json"
+{
+    "mapping": [{
+        "tokensTheme": "Light",
+        "supernovaBrand": "Coca Cola",
+        "supernovaTheme": null
+    }, {
+        "tokensTheme": "Dark",
+        "supernovaBrand": "Coca Cola",
+        "supernovaTheme": "dark"
+    }, {
+        "tokensTheme": "High Contrast",
+        "supernovaBrand": "Coca Cola",
+        "supernovaTheme": "highContrast"
+    }]
+  }
