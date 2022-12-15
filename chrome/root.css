@@ -806,6 +806,7 @@ footer#footer {
   align-content: center;
   vertical-align: baseline !important;
   line-height: baseline !important;
+  color: var(--colorRedLightAlpha7) !important;
 }
 
 footer br {
@@ -829,7 +830,6 @@ div.block-grid.category_container {
   flex-direction: row;
   width: 25%;
   flex-grow: 2;
-  // gap: 1rem !important;
   position: relative !important;
   top: auto !important;
   left: auto !important;
@@ -848,11 +848,9 @@ div.block-grid.category_container a div {
 }
 
 #block-container>div>div {
-  // padding: var(--padding-5) !important;
   padding: 0 !important;
 }
 
-// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   div.block-grid.category_container {}
 
@@ -861,7 +859,6 @@ div.block-grid.category_container a div {
   }
 }
 
-// Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   div.block-grid.category_container {
       width: 40% !important;
@@ -869,7 +866,6 @@ div.block-grid.category_container a div {
   }
 }
 
-// XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
   #block-container>div>div {
       border-radius: 0.3625rem;
@@ -908,7 +904,6 @@ body#top.CokeCustom h1 {
   text-align: center;
   justify-content: center;
   align-items: center;
-  /* color: var(--colorCocaColaBrandWhite); */
   outline: 1px solid var(--colorCocaColaBrandRed);
   outline-offset: calc(-1 * var(--padding-5));
   text-align: center !important;
@@ -1000,30 +995,6 @@ div#my-account.dropdowns {
   font-family: inherit !important;
 }
 
-
-
-
-// #block-container > div > div > a.course-card-view-button {
-//     margin-top: 0 !important;
-// }
-
-// #block-container > div > div > div.course-card-details-row {
-//     display: flex !important;
-// flex-direction: column;
-// padding-top: 1rem;
-// justify-content: center;
-// align-content: center;
-//     position: relative;
-// }
-
-// #block-container > div > div > div.course-card-details-row > div.course-card-details-count {
-//     position: absolute;
-//     top:-1px;
-//     right: -.7rem;
-//     border-radius: 0 0 0 5rem;
-//     padding-left: 16px !important;
-//     padding-bottom: 12px !important;
-//     min-width: 1rem;
-//     padding-right: 8px;
-//     text-align: right;
-// }
+.offCanvasContainer {
+    top: var(--cocacola-header-size) !important;
+}
