@@ -1,688 +1,3 @@
-4:root {
-  --cocacola-aside: 180px;
-  --cocacola-dropdown-width: calc(var(--cocacola-aside) * 1.5);
-  --cocacola-header-size: 88px;
-  --heading-font: "TCCC-UnityHeadline";
-  --body-font: "TCCC-UnityText" !important;
-  --padding-1: 0.25rem;
-  --padding-2: 0.5rem;
-  --padding-3: 0.75rem;
-  --padding-4: 1rem;
-  --padding-5: 1.25rem;
-  --shadowShadowsTheme20: 0 0 0.5px 0 rgba(48, 49, 51, 1),
-    0 1px 1.5px 0 rgba(48, 49, 51, 0.08);
-  --shadowShadowsTheme40: 0 0 0.5px 0 rgba(48, 49, 51, 1),
-    0 2px 2px 0 rgba(48, 49, 51, 0.08);
-  --shadowShadowsTheme60: 0 0 0.5px 0 rgba(48, 49, 51, 1),
-    0 4px 4px 0 rgba(48, 49, 51, 0.08);
-  --shadowShadowsTheme80: 0 0 0.5px 0 rgba(48, 49, 51, 1),
-    0 8px 8px 0 rgba(48, 49, 51, 0.08);
-  --shadowShadowsTheme100: 0 0 0.5px 0 rgba(48, 49, 51, 1),
-    0 16px 50px 0 rgba(48, 49, 51, 0.08);
-}
-
-html {
-  font-family: var(--body-font) !important;
-  font-weight: 400;
-}
-
-header#header-wrap {
-  display: flex;
-}
-
-.header-fullwidth-overlay h1 {
-  font-family: var(--heading-font);
-  font-style: normal !important;
-  font-weight: 600 !important;
-  font-size: 1.75rem !important;
-  line-height: 110% !important;
-  letter-spacing: 0em !important;
-  text-indent: 0px !important;
-  margin-top: 0.5rem !important;
-  margin-bottom: 0.5rem !important;
-  max-width: 70vw;
-  transition: all 0.25s ease 0s !important;
-  transform-origin: center !important;
-  text-shadow: none !important;
-}
-
-.moduletable.notifications {
-  margin: 0 !important;
-  padding: 0 !important;
-  min-height: 100% !important;
-}
-
-div.moduletable.notifications div.joms-notifications,
-#social_links_menu {
-  min-height: 100%;
-  margin: 0 !important;
-  display: flex !important;
-  align-items: stretch !important;
-  gap: 0rem;
-  padding: 0 0 !important;
-  color: inherit !important;
-  cursor: pointer !important;
-}
-
-div.moduletable.notifications div.joms-notifications a,
-#social_links_menu {
-  color: inherit !important;
-  display: flex !important;
-  flex-grow: stretch !important;
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle !important;
-  padding: var(--padding-4) !important;
-  min-height: 100% !important;
-}
-
-div.moduletable.notifications div.joms-notifications a:hover,
-#social_links_menu:hover {
-  color: var(--colorCocaColaBrandRed) !important;
-}
-
-#social_links_menu i {
-  margin: auto 0;
-}
-
-.set-right.right-profile {
-  align-items: stretch !important;
-  display: flex !important;
-  margin-left: 0 !important;
-  margin-right: auto;
-  padding-right: 16px;
-  float: none !important;
-}
-
-div.right-language div.moduletable {
-  margin: auto 0 !important;
-  height: auto !important;
-  padding: 0 !important;
-  align-self: center !important;
-}
-
-div.right-language div#user_language_selector.dropdown.lang-select,
-#user_language_selector > ul {
-  margin-top: 0 !important;
-  margin-right: 0 !important;
-  margin-left: auto !important;
-  right: 0 !important;
-  left: auto !important;
-  top: 0 !important;
-  bottom: auto !important;
-}
-
-div.right-language {
-  display: inline-flex !important;
-  align-items: center;
-  margin-right: 0 !important;
-  margin-left: auto !important;
-  margin-top: 0;
-  bottom: 0 !important;
-  left: auto !important;
-  right: rem !important;
-  min-height: 58px;
-  height: auto !important;
-  max-height: 58px;
-  align-self: center !important;
-  padding: var(--padding-2) var(--padding-5) !important;
-  background-color: var(--colorOverlaysWhiteAlpha4);
-  border-radius: 0 5rem 5rem 0;
-}
-
-div.set-right.right-profile {
-  margin-left: auto !important;
-  margin-right: 0 !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center;
-}
-
-div#card_info {
-  margin: 0 0.5rem 0 0 !important;
-  padding: 0 !important;
-  line-height: baseline !important;
-  font-size: 1rem;
-}
-
-div.right-language span.language_text {
-  font-size: 0.75rem;
-  line-height: 100% !important;
-  vertical-align: baseline !important;
-}
-
-header#header-wrap {
-  min-height: var(--cocacola-header-size) !important;
-  margin: 0 0 0 0;
-  top: 0;
-  box-shadow: none !important;
-}
-
-#wrapper:has(.toggled),
-body#top.CokeCustom #wrapper:has(.toggled) {
-  width: 100% !important;
-  left: 0 !important;
-  visibility: visible;
-  transition: height 0.7s ease 0s, width 0.7s ease 0s, padding 0.7s ease 0s,
-    visibility 0.7s ease 0s, left 0.7s ease 0s, background-color 0.7s ease 0s !important;
-  margin: 0 0 0 0 !important;
-  transform-origin: center !important;
-  box-shadow: none !important;
-}
-
-#wrapper,
-body#top.CokeCustom #wrapper {
-  width: 100% !important;
-  visibility: visible;
-  left: var(--cocacola-aside) !important;
-  transition: height 0.7s ease 0s, padding 0.7s ease 0s, left 0.7s ease 0s,
-    background-color 0.7s ease 0s !important;
-  margin: 0 0 0 0 !important;
-  transform-origin: right !important;
-  box-shadow: none !important;
-}
-
-div#sidebar-wrapper,
-#sidebar-wrapper {
-  min-width: var(--cocacola-aside) !important;
-  width: var(--cocacola-aside) !important;
-  max-width: var(--cocacola-aside) !important;
-  left: 0 !important;
-  visibility: visible;
-  transition: height 0.5s ease 0s, width 0.5s ease 0s, padding 0.5s ease 0s,
-    visibility 0.5s ease 0s, left 0.5s ease 0s, background-color 0.5s ease 0s !important;
-  transform-origin: center !important;
-  background-color: var(--colorCocaColaBrandRed) !important;
-  margin: 0 0 0 0 !important;
-  box-shadow: none !important;
-}
-
-.toggled div#sidebar-wrapper,
-.toggled #sidebar-wrapper {
-  min-width: var(--cocacola-aside) !important;
-  width: var(--cocacola-aside) !important;
-  max-width: var(--cocacola-aside) !important;
-  left: calc(-1 * var(--cocacola-aside)) !important;
-  visibility: hidden;
-  transition: height 0.5s ease 0s, width 0.5s ease 0s, padding 0.5s ease 0s,
-    visibility 0.5s ease 0s, left 0.5s ease 0s, background-color 0.5s ease 0s !important;
-  transform-origin: center !important;
-  margin: 0 0 0 0 !important;
-  background-color: var(--primary-color) !important;
-  box-shadow: none !important;
-}
-
-li.axsNav,
-li.axsNav a {
-  color: var(--colorCocaColaBrandWhite) !important;
-}
-
-div#page-content-wrapper {
-  margin-left: var(--cocacola-aside) !important;
-  top: var(--cocacola-header-size) !important;
-  margin-top: var(--cocacola-header-size) !important;
-}
-
-.toggled div#sidebar-wrapper + div#page-content-wrapper {
-  margin: 0 0 0 0 !important;
-  margin-left: 0 !important;
-  left: 0 !important;
-  top: var(--cocacola-header-size) !important;
-  margin-top: var(--cocacola-header-size) !important;
-}
-
-button#menu-toggle.sideToggle {
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: var(--colorOverlaysBlackAlpha12) !important;
-  color: var(--colorCocaColaBrandWhite) !important;
-}
-
-div.logo_box {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  width: auto;
-  padding-right: 1rem;
-}
-
-button#menu-toggle.sideToggle {
-  min-height: var(--cocacola-header-size) !important;
-  min-width: var(--cocacola-header-size) !important;
-  border: 0 !important;
-}
-
-li.axsNav a,
-li.axsNav a.current,
-li.axsNav a.current .active {
-  transition: all 0s ease 0s !important;
-  width: var(--cocacola-aside) !important;
-}
-
-a.dropdown-toggles {
-  background-color: var(--colorOverlaysWhiteAlpha4);
-  border-radius: 5rem 0 0 5rem;
-  padding: var(--padding-1) !important;
-  color: inherit !important;
-}
-
-a.dropdown-toggles:hover,
-a.dropdown-toggles:hover span {
-  color: var(--colorCocaColaBrandRed) !important;
-}
-
-div#my-account.dropdowns {
-  margin: 0 1px 0 0 !important;
-}
-
-div.set-right.right-profile {
-  align-items: center !important;
-  line-height: 100% !important;
-}
-
-span.flag_image {
-  width: 16px !important;
-  height: 16px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  padding: 0 var(--padding-1) !important;
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-span.flag_image img {
-  min-height: 16px !important;
-  margin: 0 !important;
-  position: absolute !important;
-  transform-origin: center center;
-}
-
-.language-text img {
-  object-fit: cover;
-  width: 16px;
-  height: 16px;
-  border-radius: 1rem;
-  margin-right: 0.5rem;
-}
-
-div#social_links {
-  top: calc(var(--cocacola-header-size) + 4px) !important;
-  left: auto;
-  right: auto;
-  transform-origin: center;
-}
-
-ul#my-account-menu.dropdown-menu,
-#social_links {
-  top: var(--cocacola-header-size) !important;
-  border-radius: 1rem !important;
-  border: 0 !important;
-  right: 0 !important;
-  transform-origin: right center !important;
-  background-color: var(--colorOverlaysBlackAlpha12) !important;
-  color: var(--colorCocaColaBrandWhite) !important;
-  padding: var(--padding-4) 0 !important;
-  box-shadow: var(--shadowShadowsTheme100) !important;
-}
-
-.lang-select ul.dropdown-menu {
-  background-color: transparent !important;
-}
-
-ul#my-account-menu.dropdown-menu li a:hover {
-  background-color: var(--colorOverlaysWhiteAlpha4) !important;
-}
-
-#user_language_selector > ul.dropdown-menu {
-  // display: flex !important;
-  flex-wrap: wrap;
-  top: calc(var(--cocacola-header-size) - 22px) !important;
-  right: -22px !important;
-  left: auto !important;
-  transform-origin: right start !important;
-  color: var(--colorCocaColaBrandWhite) !important;
-  box-shadow: var(--shadowShadowsTheme100) !important;
-  background-color: var(--colorOverlaysBlackAlpha12) !important;
-  border: 0 !important;
-  padding: var(--padding-4) 0 !important;
-  border-radius: 1rem;
-}
-
-// #user_language_selector > ul.dropdown-menu li a {
-//   padding: var(--padding-4) 0 !important;
-// }
-
-#user_language_selector > ul.dropdown-menu li a:first-of-type {
-  height: 100% !important;
-}
-
-#user_language_selector > ul.dropdown-menu li > a:last-of-type {
-  padding-left: 0 !important;
-  height: auto !important;
-  min-width: var(--cocacola- dropdown-width) !important;
-  display: flex;
-}
-
-#user_language_selector > ul.dropdown-menu li > a:last-of-type:hover {
-  background-color: var(--colorOverlaysWhiteAlpha6) !important;
-}
-
-#user_language_selector > ul.dropdown-menu li a:last-of-type .language-text {
-  padding: var(--padding-2) !important;
-  color: var(--colorCocaColaBrandWhite) !important;
-  min-width: var(--cocacola-dropdown-width) !important;
-  width: 100% !important;
-}
-a.lang-selector {
-  display: none !important;
-}
-
-ul#my-account-menu.dropdown-menu li,
-ul#my-account-menu.dropdown-menu li a,
-ul.dropdown-menu li a {
-  color: var(--colorCocaColaBrandWhite) !important;
-  min-width: var(--cocacola-dropdown-width) !important;
-}
-
-li.commit-version {
-  text-align: center;
-  padding: var(--padding-3) 0 0 0 !important;
-  font-size: 0.625rem;
-  color: var(--colorOverlaysWhiteAlpha4) !important;
-  border-top: 1px solid var(--colorOverlaysWhiteAlpha4);
-}
-
-#my-account-menu
-  span.my-account-icon.lizicon-1-TEP-Connect-Icon-administrator:before {
-  content: "\f7d9" !important;
-  font-family: "Font Awesome 6 Pro" !important;
-  font-style: normal;
-  font-weight: 300;
-  color: white !important;
-}
-
-#my-account-menu span.my-account-icon.fa-solid.fa-address-card {
-  font-family: "Font Awesome 6 Pro" !important;
-  font-style: normal;
-  font-weight: 300;
-  color: white !important;
-}
-
-#my-account-menu span.my-account-icon.fa-solid.fa-scroll {
-  font-family: "Font Awesome 6 Pro" !important;
-  font-style: normal;
-  font-weight: 300;
-  color: white !important;
-}
-
-#my-account-menu span.my-account-icon.fa-solid.fa-right-from-bracket {
-  font-family: "Font Awesome 6 Pro" !important;
-  font-style: normal;
-  font-weight: 300;
-  color: white !important;
-}
-
-#my-account-menu span.my-account-icon.fa-solid.fa-envelope {
-  font-family: "Font Awesome 6 Pro" !important;
-  font-style: normal;
-  font-weight: 300;
-  color: white !important;
-}
-
-#my-account-menu span.my-account-icon.fa-solid.fa-credit-card {
-  font-family: "Font Awesome 6 Pro" !important;
-  font-style: normal;
-  font-weight: 300;
-  color: white !important;
-}
-
-div.header-fullwidth-overlay {
-  background: var(--colorRedLightAlpha9) !important;
-}
-
-div.header-fullwidth,
-div.header-fullwidth-overlay {
-  min-height: 200px !important;
-  height: auto !important;
-}
-
-section.tovuti-dashboard-belt {
-  margin-top: 0 !important;
-}
-
-div.learner-dashboard-content {
-  margin: 1rem;
-  width: auto !important;
-}
-
-ul.sidemenu a span:first-child {
-  margin-bottom: 1rem;
-  font-size: 3rem !important;
-  font-family: "Font Awesome 6 Pro" !important;
-  font-style: normal !important;
-  font-weight: 300 !important;
-}
-
-ul.sidemenu a:hover {
-  background-color: var(--colorRedLightAlpha7) !important;
-}
-
-ul.sidemenu a span:first-child.lizicon.lizicon-meter:before {
-  content: "\e496";
-}
-
-span.lizicon.lizicon-books:before {
-  content: "\f19d" !important;
-}
-
-span.lizicon.lizicon-checkmark1:before {
-  content: "\f022" !important;
-}
-
-span.lizicon.lizicon-1-TEP-Connect-Icon-calendar:before {
-  content: "\f51c" !important;
-}
-
-span.lizicon.lizicon-film:before {
-  content: "\f65e" !important;
-}
-
-span.lizicon.lizicon-email1:before {
-  content: "\e1e1";
-}
-
-#my-account-menu li a .my-account-label {
-  bottom: 0 !important;
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .header-fullwidth-overlay h1 {
-    font-family: var(--heading-font);
-    font-size: 2.75rem !important;
-  }
-}
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-}
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {
-}
-
-.dropdown-menu > li > a {
-  display: flex;
-}
-
-div#social_links {
-}
-
-div#social_links {
-}
-
-div#page-content-wrapper main#main-content,
-.tovuti-content {
-  padding: 0;
-  margin-top: 0 !important;
-}
-
-.container-fluid {
-  padding: 0 !important;
-}
-
-main#main-content.container-fluid {
-  padding: 0 !important;
-}
-
-div.col-lg-12.tovuti-content {
-}
-
-footer#footer {
-  background-color: var(--colorOverlaysBlackAlpha12);
-  display: flex;
-  padding: var(--padding-4);
-  align-content: center;
-  vertical-align: baseline !important;
-  line-height: baseline !important;
-}
-
-footer br {
-  display: none;
-}
-
-body#top.CokeCustom {
-}
-
-div#block-container {
-  width: 100%;
-  max-width: 100vw !important;
-  display: flex !important;
-  flex-wrap: wrap !important;
-  height: 100% !important;
-  position: relative !important;
-  justify-content: center !important;
-  gap: 1rem;
-  padding: var(--padding-5);
-}
-
-div.block-grid.category_container {
-  width: 25%;
-  flex-grow: 2;
-  gap: 1rem !important;
-  position: relative !important;
-  top: auto !important;
-  left: auto !important;
-  right: auto !important;
-  bottom: auto !important;
-  box-shadow: none !important;
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  div.block-grid.category_container {
-    width: 100% !important;
-  }
-
-  body#top.CokeCustom h1 {
-    min-height: 200px;
-  }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  div.block-grid.category_container {
-    width: 40% !important;
-    flex-grow: 2;
-  }
-}
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {
-  div.block-grid.category_container {
-    width: 20% !important;
-    height: auto !important;
-    border-radius: 1rem;
-  }
-
-  div.block-grid.category_container > a {
-    background-size: cover !important;
-    min-width: 100% !important;
-    height: 100%;
-  }
-
-  div.block-grid.category_container > a > .course-card-img {
-    min-width: 100% !important;
-    flex-grow: 2 !important;
-    height: 5rem;
-    height: auto !important;
-  }
-
-  div.block-grid.category_container div:last-of-type {
-    padding: 0 0 !important;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 100% !important;
-    align-items: space-between !important;
-  }
-
-  div.block-grid.category_container a > div:last-of-type.course-titlebox {
-  }
-
-  .course-card-view-button,
-  .course-card-view-button.w-inline-block {
-    margin-top: auto !important;
-    top: auto !important;
-    bottom: 0 !important;
-    margin-bottom: 0 !important;
-  }
-}
-
-div#akeeba-renderjoomla {
-  max-width: 100vw !important;
-  position: relative !important;
-}
-body#top.CokeCustom h1 {
-  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
-    url(https://tovuti-design-lab-client-cc.vercel.app/assets/coke/coca-cola__backgrounds__10.png);
-  background-position: center, center;
-  background-size: cover, cover;
-  min-height: 200px;
-  padding: var(--padding-5);
-  margin: 0 !important;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  color: var(--colorCocaColaBrandWhite);
-  outline: 1px solid var(--colorCocaColaBrandRed);
-  outline-offset: calc(-1 * var(--padding-5));
-}
-
-div.course-listing-search {
-  margin: 100%;
-  gap: 4;
-}
-
-
-
-
-/** ANOTHER BACKUP **/
-
 :root {
   --cocacola-aside: 180px;
   --cocacola-dropdown-width: calc(var(--cocacola-aside) * 1.5);
@@ -699,6 +14,75 @@ div.course-listing-search {
   --shadowShadowsTheme60: 0 0 0.5px 0 rgba(48, 49, 51, 1), 0 4px 4px 0 rgba(48, 49, 51, 0.08);
   --shadowShadowsTheme80: 0 0 0.5px 0 rgba(48, 49, 51, 1), 0 8px 8px 0 rgba(48, 49, 51, 0.08);
   --shadowShadowsTheme100: 0 0 0.5px 0 rgba(48, 49, 51, 1), 0 16px 50px 0 rgba(48, 49, 51, 0.08);
+  --colorCocaColaLightDietCokeBloodOrange: #e84a38;    
+  --colorCocaColaLightDietCokePeach: #f0826c;    
+  --colorCocaColaLightDietCokeLemon: #f1c300;    
+  --colorCocaColaLightDietCokeFiestyCherry: #75192b;    
+  --colorCocaColaLightDietCokeLime: #76b82a;    
+  --colorCocaColaLightDietCokeTwistedMango: #f6a803;    
+  --colorCocaColaLightDietCokeStrawberryGuava: #ec627e;    
+  --colorCocaColaLightZeroSugarOrange: #f18a00;    
+  --colorCocaColaLightZeroSugarVanilla: #cda075;    
+  --colorCocaColaLightDietCokeGingerLime: #7d9b2b;    
+  --colorCocaColaLightZeroSugarCherry: #871555;    
+  --colorCocaColaLightZeroSugarLemon: #f6ce3c;    
+  --colorCocaColaLightDietCokeBlueberryAcai: #241e52;    
+  --colorCocaColaLightZeroSugarRaspberry: #c71455;    
+  --colorCocaColaLightZeroSugarCinnamon: #902a2b;    
+  --colorCocaColaBrandRed: #f40009;    
+  --colorCocaColaGeorgiaGreenPrimary: #a5cdaa;    
+  --colorCocaColaGeorgiaGreenDark: #2d5240;    
+  --colorCocaColaGeorgiaGreenLight: #d5e0d8;    
+  --colorCocaColaBrandBlack: #000000;    
+  --colorCocaColaBrandWhite: #ffffff;    
+  --colorCocaColaBrandDietCokeSilver: #ededed;    
+  --colorCocaColaBrandDietCokeCaffeineFreeGold: #dbd3aa;    
+  --colorCocaColaData11: #404040;    
+  --colorCocaColaData3: #f5edd6;    
+  --colorCocaColaData10: #d7b85b;    
+  --colorCocaColaData12: #000000;    
+  --colorCocaColaData9: #dbc06d;    
+  --colorCocaColaData8: #666666;    
+  --colorCocaColaData7: #e3ce8e;    
+  --colorCocaColaData6: #999999;    
+  --colorCocaColaData5: #ebdcaf;    
+  --colorCocaColaData4: #cccccc;
+  --colorBronzeLightAlpha1: #58050503;    
+  --colorBronzeLightAlpha2: #c73c050a;    
+  --colorBronzeLightAlpha3: #972e0112;    
+  --colorBronzeLightAlpha4: #8426001c;    
+  --colorBronzeLightAlpha5: #79270029;    
+  --colorBronzeLightAlpha6: #72210038;    
+  --colorBronzeLightAlpha7: #6e21004f;    
+  --colorBronzeLightAlpha8: #671d006b;    
+  --colorBronzeLightAlpha9: #551a008c;    
+  --colorBronzeLightAlpha10: #4e160096;    
+  --colorBronzeLightAlpha11: #431100a6;    
+  --colorBronzeLightAlpha12: #1d0600d4;    
+  --colorOverlaysWhiteAlpha1: #00000000;    
+  --colorOverlaysWhiteAlpha2: #ffffff03;    
+  --colorOverlaysWhiteAlpha3: #ffffff08;    
+  --colorOverlaysWhiteAlpha4: #ffffff0f;    
+  --colorOverlaysWhiteAlpha5: #ffffff17;    
+  --colorOverlaysWhiteAlpha6: #ffffff1f;    
+  --colorOverlaysWhiteAlpha7: #ffffff2e;    
+  --colorOverlaysWhiteAlpha8: #ffffff40;    
+  --colorOverlaysWhiteAlpha9: #ffffff63;    
+  --colorOverlaysWhiteAlpha10: #ffffff73;    
+  --colorOverlaysWhiteAlpha11: #ffffff96;    
+  --colorOverlaysWhiteAlpha12: #ffffffeb;    
+  --colorOverlaysBlackAlpha1: #00000003;    
+  --colorOverlaysBlackAlpha2: #00000008;    
+  --colorOverlaysBlackAlpha3: #0000000d;    
+  --colorOverlaysBlackAlpha4: #00000012;    
+  --colorOverlaysBlackAlpha5: #00000017;    
+  --colorOverlaysBlackAlpha6: #0000001c;    
+  --colorOverlaysBlackAlpha7: #00000024;    
+  --colorOverlaysBlackAlpha8: #00000038;    
+  --colorOverlaysBlackAlpha9: #00000070;    
+  --colorOverlaysBlackAlpha10: #0000007a;    
+  --colorOverlaysBlackAlpha11: #0000008f;    
+  --colorOverlaysBlackAlpha12: #000000e8;  
 }
 
 html {
@@ -729,7 +113,6 @@ div.right-language {
   border-radius: 0 5rem 5rem 0;
 }
 
-// Medium devices (tablets, 768px and down)
 @media (max-width: 768px) {
 
   #wrapper:has(.toggled),
@@ -737,6 +120,7 @@ div.right-language {
       width: 100% !important;
       left: 0 !important;
       visibility: visible;
+      top: 88px !important;
       transition: height 0.7s ease 0s, width 0.7s ease 0s, padding 0.7s ease 0s, visibility 0.7s ease 0s,
           left 0.7s ease 0s, background-color 0.7s ease 0s !important;
       margin: 0 0 0 0 !important;
@@ -748,6 +132,7 @@ div.right-language {
   body#top.CokeCustom #wrapper {
       width: 100% !important;
       visibility: visible;
+      top: 88px !important;
       left: var(--cocacola-aside) !important;
       transition: height 0.7s ease 0s, padding 0.7s ease 0s, left 0.7s ease 0s, background-color 0.7s ease 0s !important;
       margin: 0 0 0 0 !important;
@@ -834,7 +219,6 @@ div.moduletable.notifications div.joms-notifications a:hover,
   }
 
   .set-right.right-profile {
-      // gap: .5rem;
       position: fixed;
       right: 0rem !important;
       top: auto !important;
@@ -849,16 +233,12 @@ div.moduletable.notifications div.joms-notifications a:hover,
   }
 
   .notifications {
-      // display: none !important;
       display: flex !important;
       position: fixed !important;
       top: auto !important;
       left: 10px !important;
       bottom: 60px !important;
-      // background-color: red !important;
-      // border: 1px solid red;
       height: 50px;
-      // gap: 1rem !important;
       border-radius: 100px !important;
   }
 
@@ -869,7 +249,6 @@ div.moduletable.notifications div.joms-notifications a:hover,
       justify-content: center !important;
       align-items: auto !important;
       background-color: var(--colorCocaColaBrandRed) !important;
-      // gap: 1rem !important;
       color: var(--colorCocaColaBrandWhite) !important;
   }
 
@@ -899,8 +278,7 @@ div.moduletable.notifications div.joms-notifications a:hover,
       right: auto !important;
       top: auto !important;
       bottom: 0 !important;
-      background-color: red !important;
-      border: 1px solid red;
+      background-color: var(--colorCocaColaBrandRed) !important;
   }
 
   #my-account>a>span {
@@ -1014,6 +392,7 @@ header#header-wrap {
 body#top.CokeCustom #wrapper:has(.toggled) {
   width: 100% !important;
   left: 0 !important;
+  top: 88px !important;
   visibility: visible;
   transition: height 0.7s ease 0s, width 0.7s ease 0s, padding 0.7s ease 0s, visibility 0.7s ease 0s,
       left 0.7s ease 0s, background-color 0.7s ease 0s !important;
@@ -1027,7 +406,7 @@ body#top.CokeCustom #wrapper {
   width: 100% !important;
   visibility: visible;
   left: 0 !important;
-  // margin-left: 0 !important;
+  top: 88px !important;
   transition: height 0.7s ease 0s, padding 0.7s ease 0s, left 0.7s ease 0s, background-color 0.7s ease 0s !important;
   margin: 0 0 0 0 !important;
   transform-origin: right !important;
@@ -1044,7 +423,6 @@ div#sidebar-wrapper,
   left: 0 !important;
   top: 88px !important;
   max-height: 100vw - 88px;
-  // margin-left: 0 !important;
   visibility: visible;
   transition: height 0.5s ease 0s, width 0.5s ease 0s, padding 0.5s ease 0s, visibility 0.5s ease 0s,
       left 0.5s ease 0s, background-color 0.5s ease 0s !important;
@@ -1518,8 +896,6 @@ div#akeeba-renderjoomla {
 }
 
 body#top.CokeCustom h1 {
-  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
-      url(https://tovuti-design-lab-client-cc.vercel.app/assets/coke/coca-cola__backgrounds__10.png);
   background-position: center, center;
   background-size: cover, cover;
   min-height: 200px;
@@ -1530,7 +906,7 @@ body#top.CokeCustom h1 {
   text-align: center;
   justify-content: center;
   align-items: center;
-  color: var(--colorCocaColaBrandWhite);
+  /* color: var(--colorCocaColaBrandWhite); */
   outline: 1px solid var(--colorCocaColaBrandRed);
   outline-offset: calc(-1 * var(--padding-5));
   text-align: center !important;

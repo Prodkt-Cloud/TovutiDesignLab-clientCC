@@ -404,7 +404,6 @@ body#top.CokeCustom #wrapper {
   width: 100% !important;
   visibility: visible;
   left: 0 !important;
-  // margin-left: 0 !important;
   transition: height 0.7s ease 0s, padding 0.7s ease 0s, left 0.7s ease 0s, background-color 0.7s ease 0s !important;
   margin: 0 0 0 0 !important;
   transform-origin: right !important;
@@ -895,8 +894,6 @@ div#akeeba-renderjoomla {
 }
 
 body#top.CokeCustom h1 {
-  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
-      url(https://tovuti-design-lab-client-cc.vercel.app/assets/coke/coca-cola__backgrounds__10.png);
   background-position: center, center;
   background-size: cover, cover;
   min-height: 200px;
@@ -907,7 +904,7 @@ body#top.CokeCustom h1 {
   text-align: center;
   justify-content: center;
   align-items: center;
-  color: var(--colorCocaColaBrandWhite);
+  /* color: var(--colorCocaColaBrandWhite); */
   outline: 1px solid var(--colorCocaColaBrandRed);
   outline-offset: calc(-1 * var(--padding-5));
   text-align: center !important;
