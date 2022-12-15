@@ -312,7 +312,7 @@ div.moduletable.notifications div.joms-notifications a:hover,
   }
 
   div.right-language div.moduletable {
-      margin: auto 0 !important;
+      margin: auto auto !important;
       height: auto !important;
       padding: 0 !important;
       align-self: center !important;
@@ -322,7 +322,6 @@ div.moduletable.notifications div.joms-notifications a:hover,
       max-width: 50px;
       max-height: 50px;
       padding: 0 !important;
-      margin: 0 0 0 0 !important;
   }
 
   div.right-language div#user_language_selector.dropdown.lang-select,
@@ -806,7 +805,7 @@ footer#footer {
   align-content: center;
   vertical-align: baseline !important;
   line-height: baseline !important;
-  color: var(--colorRedLightAlpha7) !important;
+  color: var(--colorRedLightAlpha12) !important;
 }
 
 footer br {
