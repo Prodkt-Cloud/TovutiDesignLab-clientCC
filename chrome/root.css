@@ -95,6 +95,10 @@ header#header-wrap {
   flex-wrap: wrap !important;
 }
 
+.course-hero-header-h1 {
+    width: 100%;
+}
+
 div.right-language {
   display: inline-flex !important;
   align-items: right;
