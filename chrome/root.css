@@ -2,8 +2,8 @@
   --cocacola-aside: 180px;
   --cocacola-dropdown-width: calc(var(--cocacola-aside) * 1.5);
   --cocacola-header-size: 88px;
-  --heading-font: "TCCC-UnityHeadline";
-  --body-font: "TCCC-UnityText" !important;
+  --heading-font: "TCCC-UnityHeadline", sans-serif !important;
+  --body-font: "TCCC-UnityText", sans-serif !important;
   --padding-1: 0.25rem;
   --padding-2: 0.5rem;
   --padding-3: 0.75rem;
