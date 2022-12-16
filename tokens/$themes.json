@@ -1,5 +1,22 @@
 [
   {
+    "id": "13640b2fc0051972f01b8b9bc3ccf51a17382a1d",
+    "name": "High Contrast",
+    "selectedTokenSets": {
+      "base/colors": "source",
+      "base/radii": "source",
+      "base/shadows": "source",
+      "base/typography": "source",
+      "semantic/theme": "enabled",
+      "semantic/typography": "enabled",
+      "base/dimension": "source",
+      "themes/light": "disabled",
+      "themes/dark": "disabled",
+      "themes/high contrast": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
     "id": "54be2eea0002a21bff606bb38bc5cff56fcaaff3",
     "name": "Light",
     "selectedTokenSets": {
@@ -12,9 +29,7 @@
       "base/dimension": "source",
       "themes/light": "enabled",
       "themes/dark": "disabled",
-      "themes/high contrast": "disabled",
-      "base/coca-cola": "enabled",
-      "base/arca-continental": "enabled"
+      "themes/high contrast": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -31,28 +46,7 @@
       "base/dimension": "source",
       "themes/light": "disabled",
       "themes/dark": "enabled",
-      "themes/high contrast": "disabled",
-      "base/coca-cola": "enabled",
-      "base/arca-continental": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
-    "id": "13640b2fc0051972f01b8b9bc3ccf51a17382a1d",
-    "name": "High Contrast",
-    "selectedTokenSets": {
-      "base/colors": "source",
-      "base/radii": "source",
-      "base/shadows": "source",
-      "base/typography": "source",
-      "semantic/theme": "enabled",
-      "semantic/typography": "enabled",
-      "base/dimension": "source",
-      "themes/light": "disabled",
-      "themes/dark": "disabled",
-      "themes/high contrast": "enabled",
-      "base/coca-cola": "enabled",
-      "base/arca-continental": "enabled"
+      "themes/high contrast": "disabled"
     },
     "$figmaStyleReferences": {}
   }

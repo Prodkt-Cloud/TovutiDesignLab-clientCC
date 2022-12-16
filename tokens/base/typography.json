@@ -4,16 +4,8 @@
       "value": "{fontFamilies.body}",
       "type": "fontFamilies"
     },
-    "headlines-cocaCola": {
-      "value": "{fontFamilies.body}",
-      "type": "fontFamilies"
-    },
     "body": {
-      "value": "Roboto Condensed",
-      "type": "fontFamilies"
-    },
-    "body-cocaCola": {
-      "value": "TCCC-UnityText-Regular",
+      "value": "Inter",
       "type": "fontFamilies"
     }
   },
