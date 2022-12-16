@@ -1,8 +1,13 @@
 
 :root {
-    --shadowShadowsTheme20: 0 0 0.5px 0 rgba(48,49,51,1), 0 1px 1.5px 0 rgba(48,49,51,0.08);  
-    --shadowShadowsTheme40: 0 0 0.5px 0 rgba(48,49,51,1), 0 2px 2px 0 rgba(48,49,51,0.08);  
-    --shadowShadowsTheme60: 0 0 0.5px 0 rgba(48,49,51,1), 0 4px 4px 0 rgba(48,49,51,0.08);  
-    --shadowShadowsTheme80: 0 0 0.5px 0 rgba(48,49,51,1), 0 8px 8px 0 rgba(48,49,51,0.08);  
-    --shadowShadowsTheme100: 0 0 0.5px 0 rgba(48,49,51,1), 0 16px 50px 0 rgba(48,49,51,0.08);  
+    --shadowShadowsTheme20: 0 1px 1.5px 0 rgba(48,49,51,0.08);  
+    --shadowShadowsTheme202: 0 0 0.5px 0 rgba(48,49,51,1);  
+    --shadowShadowsTheme40: 0 2px 2px 0 rgba(48,49,51,0.08);  
+    --shadowShadowsTheme402: 0 0 0.5px 0 rgba(48,49,51,1);  
+    --shadowShadowsTheme60: 0 4px 4px 0 rgba(48,49,51,0.08);  
+    --shadowShadowsTheme602: 0 0 0.5px 0 rgba(48,49,51,1);  
+    --shadowShadowsTheme80: 0 8px 8px 0 rgba(48,49,51,0.08);  
+    --shadowShadowsTheme802: 0 0 0.5px 0 rgba(48,49,51,1);  
+    --shadowShadowsTheme100: 0 16px 50px 0 rgba(48,49,51,0.08);  
+    --shadowShadowsTheme1002: 0 0 0.5px 0 rgba(48,49,51,1);  
 }
