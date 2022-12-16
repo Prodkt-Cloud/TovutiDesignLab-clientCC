@@ -1,11 +1,11 @@
 {
   "fontFamilies": {
     "headlines": {
-      "value": "PT Serif",
+      "value": "Roboto Condensed",
       "type": "fontFamilies"
     },
     "body": {
-      "value": "Oxygen",
+      "value": "Roboto Condensed",
       "type": "fontFamilies"
     }
   },
