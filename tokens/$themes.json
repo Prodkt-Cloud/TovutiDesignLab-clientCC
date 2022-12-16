@@ -37,7 +37,7 @@
     "id": "975c20aafa00ba52962b043ac09182ee5d0b5e37",
     "name": "Dark",
     "selectedTokenSets": {
-      "base/colors": "source",
+      "base/colors": "enabled",
       "base/radii": "source",
       "base/shadows": "source",
       "base/typography": "source",
