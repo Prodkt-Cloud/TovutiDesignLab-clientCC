@@ -1,0 +1,715 @@
+:root {
+    --cocacola-aside: 180px;
+    --cocacola-dropdown-width: calc(var(--cocacola-aside) * 1.5);
+    --cocacola-header-size: 88px;
+    --arcaButtonHeight: 48px;
+    --heading-font: "Roboto Condensed";
+    --body-font: "Roboto Condensed";
+    --arcaBrandRed: #DF1E40;
+    --arcaBrandDeepRed: #71251E;
+    --arcaBrandWhite: #FFFFFF;
+    --arcaBrandBlack: #000000;
+    --arcaBrandLightGray: #BFBFBF;
+    --arcaBrandMidGray: #7F7F7F;
+    --arcaBrandDarkGray: #484848;
+    --arcaDropdown: var(--arcaBrandDarkGray);
+    --padding-1: 0.25rem;
+    --padding-2: 0.5rem;
+    --padding-3: 0.75rem;
+    --padding-4: 1rem;
+    --padding-5: 1.25rem;
+    --colorAmberLightAlpha1: #c0820505;
+    --colorAmberLightAlpha2: #ffab0212;
+    --colorAmberLightAlpha3: #ffbb012b;
+    --colorAmberLightAlpha4: #ffb70042;
+    --colorAmberLightAlpha5: #ffb3005e;
+    --colorAmberLightAlpha6: #ffa20178;
+    --colorAmberLightAlpha7: #ec8d009c;
+    --colorAmberLightAlpha8: #ea8900d4;
+    --colorAmberLightAlpha9: #ffa600db;
+    --colorAmberLightAlpha10: #ff9500e3;
+    --colorAmberLightAlpha11: #ab5300fa;
+    --colorAmberLightAlpha12: #481800f5;
+    --colorMintLight1: #f9fefd;
+    --colorMintLight2: #effefa;
+    --colorMintLight3: #e1fbf4;
+    --colorMintLight4: #d2f7ed;
+    --colorMintLight5: #c0efe3;
+    --colorMintLight6: #a5e4d4;
+    --colorMintLight7: #7dd4c0;
+    --colorMintLight8: #40c4aa;
+    --colorMintLight9: #70e1c8;
+    --colorMintLight10: #69d9c1;
+    --colorMintLight11: #147d6f;
+    --colorMintLight12: #09342e;
+    --colorMintLightAlpha1: #05d5ac05;
+    --colorMintLightAlpha2: #01efb00f;
+    --colorMintLightAlpha3: #01dda21f;
+    --colorMintLightAlpha4: #01d29a2e;
+    --colorMintLightAlpha5: #01be8f40;
+    --colorMintLightAlpha6: #00b38659;
+    --colorMintLightAlpha7: #00ab8382;
+    --colorMintLightAlpha8: #00b08dbf;
+    --colorMintLightAlpha9: #00c99e8f;
+    --colorMintLightAlpha10: #00be9596;
+    --colorMintLightAlpha11: #007263eb;
+    --colorMintLightAlpha12: #002d27f5;
+    --shadowShadowsTheme20: 0 0 0.5px 0 rgba(48, 49, 51, 1), 0 1px 1.5px 0 rgba(48, 49, 51, 0.08);
+    --shadowShadowsTheme40: 0 0 0.5px 0 rgba(48, 49, 51, 1), 0 2px 2px 0 rgba(48, 49, 51, 0.08);
+    --shadowShadowsTheme60: 0 0 0.5px 0 rgba(48, 49, 51, 1), 0 4px 4px 0 rgba(48, 49, 51, 0.08);
+    --shadowShadowsTheme80: 0 0 0.5px 0 rgba(48, 49, 51, 1), 0 8px 8px 0 rgba(48, 49, 51, 0.08);
+    --shadowShadowsTheme100: 0 0 0.5px 0 rgba(48, 49, 51, 1), 0 16px 50px 0 rgba(48, 49, 51, 0.08);
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
+
+/* GLOBAL */
+html, div.date, div.past-event.courselist-item.task-has-link, div.course-in-progress.courselist-item.task-has-link {
+    font-family: var(--body-font) !important;
+}
+
+/* TOVUTI TOPBAR HEADER */
+header#header-wrap {
+    margin: 0 0 0 0;
+    top: 0;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center !important;
+    background-color: var(--arcaBrandRed);
+    color: var(--arcaBrandWhite)
+}
+
+.moduletable.notifications {
+    margin-left: auto !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0 !important;
+    padding: 0 !important;
+    min-height: 100% !important;
+}
+
+div.moduletable.notifications div.joms-notifications, #social_links_menu {
+    min-height: 100%;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: stretch !important;
+    gap: 0rem;
+    padding: 0 0 !important;
+    color: inherit !important;
+    cursor: pointer !important;
+}
+
+div.moduletable.notifications div.joms-notifications a, #social_links_menu {
+    color: inherit !important;
+    display: flex !important;
+    flex-grow: stretch !important;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle !important;
+    padding: var(--padding-4) !important;
+    min-height: 100% !important;
+    /* margin-left: auto !important; */
+}
+
+div.moduletable.notifications div.joms-notifications a:hover, #social_links_menu:hover {
+    color: var(--arcaBrandBlack) !important;
+}
+
+#social_links_menu i {
+    margin: auto 0;
+}
+
+.set-right.right-profile {
+    align-items: stretch !important;
+    height: 100%;
+    display: flex !important;
+    margin-left: 0 !important;
+    margin-right: 16px;
+    padding-right: 16px !important;
+    padding-left: 16px;
+    float: none !important;
+    background-color: rgba(0,0,0,.1);
+    border-left: 1px solid rgba(0,0,0,.125);
+}
+
+div.right-language div.moduletable {
+    margin: auto 0 !important;
+    height: auto !important;
+    padding: 0 !important;
+    align-self: center !important;
+}
+
+div.right-language div#user_language_selector.dropdown.lang-select, #user_language_selector>ul {
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-left: auto !important;
+    right: 0 !important;
+    left: auto !important;
+    top: 0 !important;
+    bottom: auto !important;
+}
+
+div.right-language {
+    display: inline-flex !important;
+    align-items: right;
+    margin-right: 0 !important;
+    margin-left: auto !important;
+    margin-top: 0;
+    bottom: 0 !important;
+    left: auto !important;
+    right: 0rem !important;
+    min-height: 60px;
+    height: auto !important;
+    max-height: 60px;
+    align-self: center !important;
+    color: white !important;
+    padding: var(--padding-2) var(--padding-5) !important;
+    background-color: var(--arcaBrandRed);
+    /*   border: 1px solid rgba(0,0,0,0) !important; */
+    border-radius: 0 5rem 5rem 0;
+}
+
+.social_links_menu {
+    margin-left: auto !important;
+}
+
+div.set-right.right-profile {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+}
+
+div#card_info {
+    margin: 0 0.5rem 0 0 !important;
+    padding: 0 !important;
+    line-height: baseline !important;
+    font-size: 1rem;
+}
+
+div.right-language span.language_text {
+    font-size: 0.75rem;
+    line-height: 100% !important;
+    vertical-align: baseline !important;
+    color: white !important;
+}
+
+a.dropdown-toggles {
+    background-color: var(--arcaBrandRed);
+    border-radius: 5rem 0 0 5rem;
+    padding: var(--padding-1) !important;
+    color: inherit !important;
+    height: 60px;
+}
+
+a.dropdown-toggles:hover, a.dropdown-toggles:hover span {
+    color: var(--arcaBrandDeepRed) !important;
+}
+
+div#my-account.dropdowns {
+    margin: 0 0 0 0 !important;
+}
+
+div.set-right.right-profile {
+    align-items: center !important;
+    line-height: 100% !important;
+}
+
+span.flag_image {
+    width: 16px !important;
+    height: 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 var(--padding-1) !important;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+span.flag_image img {
+    min-height: 16px !important;
+    margin: 0 !important;
+    position: absolute !important;
+    transform-origin: center center;
+}
+
+.language-text img {
+    object-fit: cover;
+    width: 16px;
+    height: 16px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+
+div#social_links {
+    top: calc(var(--cocacola-header-size) + 4px) !important;
+    left: auto;
+    right: auto;
+    transform-origin: center;
+}
+
+ul#my-account-menu.dropdown-menu, #social_links {
+    top: 84px !important;
+    margin: 0 0 0 0 !important'
+    border-radius:  0 0 1rem 1rem !important;
+    border: 0 !important;
+    right: 0 !important;
+    transform-origin: right center !important;
+    background-color: var(--arcaDropdown) !important;
+    color: var(--colorCocaColaBrandWhite) !important;
+    ;;padding: var(--padding-4) 0 !important;;;
+}
+
+.lang-select ul.dropdown-menu {
+    background-color: var(--arcaDropdown) !important;
+    color: var(--colorCocaColaBrandWhite) !important;
+}
+
+ul#my-account-menu.dropdown-menu li a:hover {
+}
+
+#user_language_selector>ul.dropdown-menu {
+    flex-wrap: wrap;
+  top: 62px !important;
+    right: -22px !important;
+    left: auto !important;
+    transform-origin: right start !important;
+    background-color: var(--arcaDropdown) !important;
+    color: var(--arcaBrandWhite) !important;
+    border: 0px solid var(--arcaBrandMidGray) !important;
+    padding: var(--padding-4) 0 !important;
+  box-shadow: 10px 10px 70px 10px rgba(0,0,0,.5);
+    border-radius: 1rem;
+}
+
+#user_language_selector>ul.dropdown-menu li a:active {
+background-color: black !important;
+}
+
+
+#user_language_selector>ul.dropdown-menu li a:first-of-type {
+    height: 100% !important;
+}
+
+#user_language_selector>ul.dropdown-menu li>a:last-of-type {
+    padding-left: 0 !important;
+    height: auto !important;
+    min-width: var(--cocacola-dropdown-width) !important;
+    display: flex;
+}
+
+#user_language_selector>ul.dropdown-menu li>a:last-of-type:hover {
+}
+
+#user_language_selector>ul.dropdown-menu li a:last-of-type .language-text {
+    padding: var(--padding-2) !important;
+    color: var(--arcaBrandWhite) !important;
+    min-width: var(--cocacola-dropdown-width) !important;
+    width: 100% !important;
+}
+
+a.lang-selector {
+    display: none !important;
+}
+
+ul#my-account-menu.dropdown-menu li,
+ul#my-account-menu.dropdown-menu li a,
+ul.dropdown-menu li a {
+    color: var(--colorCocaColaBrandWhite) !important;
+    min-width: var(--cocacola-dropdown-width) !important;
+}
+
+li.commit-version {
+    text-align: center;
+    padding: var(--padding-3) 0 0 0 !important;
+    font-size: 0.625rem;
+    color: var(--arcaBrandBlack) !important;
+    border-top: 1px solid var(--arcaBrandLightGray);
+}
+
+#my-account-menu span.my-account-icon.lizicon-1-TEP-Connect-Icon-administrator:before {
+    content: "\f7d9" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-style: normal;
+    font-weight: 300;
+    color: white !important;
+}
+
+#my-account-menu span.my-account-icon.fa-solid.fa-address-card {
+    font-family: "Font Awesome 6 Pro" !important;
+    font-style: normal;
+    font-weight: 300;
+    color: white !important;
+}
+
+#my-account-menu span.my-account-icon.fa-solid.fa-scroll {
+    font-family: "Font Awesome 6 Pro" !important;
+    font-style: normal;
+    font-weight: 300;
+    color: white !important;
+}
+
+#my-account-menu span.my-account-icon.fa-solid.fa-right-from-bracket {
+    font-family: "Font Awesome 6 Pro" !important;
+    font-style: normal;
+    font-weight: 300;
+    color: white !important;
+}
+
+#my-account-menu span.my-account-icon.fa-solid.fa-envelope {
+    font-family: "Font Awesome 6 Pro" !important;
+    font-style: normal;
+    font-weight: 300;
+    color: white !important;
+}
+
+#my-account-menu span.my-account-icon.fa-solid.fa-credit-card {
+    font-family: "Font Awesome 6 Pro" !important;
+    font-style: normal;
+    font-weight: 300;
+    color: white !important;
+}
+
+div.logo_box {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    padding-right: 1rem;
+}
+
+button#menu-toggle.sideToggle {
+    top: 0;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    min-height: var(--cocacola-header-size) !important;
+    min-width: var(--cocacola-header-size) !important;
+    border: 0 !important;
+    background-color: rgba(0,0,0,.1);
+    border-right: 1px solid rgba(0,0,0,.125) !important;
+    color: var(--colorCocaColaBrandWhite) !important;
+}
+
+
+/* END TOVUTI HEADER */
+
+div#page-content-wrapper main {
+    top: 88px !important;
+    margin-top: 88px !important;
+}
+
+div#sidebar-wrapper,
+#sidebar-wrapper {
+    left: 0 !important;
+    top: 0 !important;
+    max-height: 100vw - 88px;
+    visibility: visible;
+    transition: height 0.5s ease 0s, width 0.5s ease 0s, padding 0.5s ease 0s, visibility 0.5s ease 0s,
+        left 0.5s ease 0s, background-color 0.5s ease 0s !important;
+    transform-origin: center !important;
+    background-color: var(--arcaDropdown) !important;
+    font-weight: normal !important;
+    box-shadow: none !important;
+}
+
+
+
+
+ul#my-account-menu.dropdown-menu li, ul#my-account-menu.dropdown-menu li a, ul.dropdown-menu li a {
+padding: 0;
+box-shadow: none !important;
+}
+
+ul#my-account-menu.dropdown-menu span:first-of-type {
+    display: flex-column;
+    justify-content: center;
+    align-items:center;
+}
+
+
+ul#my-account-menu.dropdown-menu span.my-account-icon {
+    padding: var(--padding-2);
+    border-radius: 100px;
+    min-width: var(--arcaButtonHeight);
+    min-height: var(--arcaButtonHeight);
+    max-width: var(--arcaButtonHeight);
+    max-height: var(--arcaButtonHeight);
+    margin: auto !important;
+}
+
+#main-content > div.learner-dashboard-content > div.tovuti-dashboard-belt {
+    border-radius: none;
+    background-color: rgba(255,255,255,0) !important;
+  padding: 1rem !important;
+}
+
+
+#main-content > div.learner-dashboard-content div.progress, div.progress {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 2px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: flex;
+    vertical-align: center;
+    justify-content: left;
+    border-radius: 24px;
+    margin-bottom: 1rem !important;
+  border-bottom: 1px solid rgba(200,200,200,.1) !important;
+  box-shadow: inset 0px 10px 10px 0px rgba(100,100,100,.15) !important;
+    background-image: linear-gradient(to bottom, var(--arcaBrandWhite)), rgba(50,50,50,.1);
+}
+
+.progress-bar, .progress-bar-success {
+  background: linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent), linear-gradient(to right, #ff0000, #325ea8);
+  background-repeat: repeat, no-repeat;
+  min-height: 20px;
+  background-size: 1rem 1rem, cover;  -webkit-animation: stripes-custom-animation 1s linear infinite;
+  animation: stripes-custom-animation 1s linear infinite;
+}
+
+@-webkit-keyframes stripes-custom-animation {
+  from {
+    background-position: 15px 0, 0 0;
+  }
+  to {
+    background-position: 0 0, 0 0;
+  }
+}
+@keyframes stripes-custom-animation {
+  from {
+    background-position: 15px 0, 0 0;
+  }
+  to {
+    background-position: 0 0, 0 0;
+  }
+}
+
+
+#main-content > div.learner-dashboard-content > section {
+  background-color: rgba(255,255,255,.1);
+background: linear-gradient(to right, rgba(255,255,255,.3), #rgba(255,0,0,0));
+backdrop-filter: blur(10px);
+}
+
+#main-content > div.learner-dashboard-content > section > div.col-lg-6.no-left-padding > div.progress > div {
+    width: 50% !important;
+    height: 24px;
+    border-radius: 1rem !important;
+}
+
+#main-content > div.learner-dashboard-content div.checklist-complete-head {
+background: transparent !important;
+}
+
+.tovuti-dashboard-belt h2 {
+    margin-top: 1rem;
+    margin-bottom: 2rem
+}
+
+#main-content > div.learner-dashboard-content > section > div.col-lg-6.no-left-padding > div.tovuti-tasklist{ 
+  width: 100%;margin-left: auto;margin-right: auto;padding: 0 !important;box-shadow: none;border-right: 0 !important;border-left: 0 !important;}
+
+#main-content > div.learner-dashboard-content > section > div.col-lg-6.no-left-padding > div.tovuti-tasklist {
+    padding: 0;
+    color: var(--arcaBrandRed);
+    margin: 0 0 0 0 !important;
+    border-radius: 0 !important;
+}
+
+#main-content > div.learner-dashboard-content > section > div.col-lg-6.no-left-padding > div.tovuti-tasklist > span > a {
+    background-color: rgba(0,255,0,.3);
+    border: 0 !important;
+    border-radius: 100px;
+}
+
+#main-content > div.learner-dashboard-content > section > div.col-lg-6.no-left-padding > div.tovuti-tasklist > span {
+    padding: 2rem;
+    background-color: var(--arcaBrandWhite);
+    border-top: 1px solid rgba(100,100,100,.2);
+    border-bottom: 1px dotted rgba(100,100,100,.2);
+}
+
+
+
+  ul.sidemenu a span:first-child {
+    margin-bottom: 1rem;
+    font-size: 2.5rem !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-style: normal !important;
+    font-weight: 100 !important;
+      color: var(--arcaBrandWhite) !important;
+  text-shadow: 0px 3px 8px rgba(255,0,0,.6);
+  }
+  
+  ul.sidemenu a:hover,   ul.sidemenu a:active {
+    background-color: var(--arcaBrandRed) !important;
+      color: var(--arcaBrandWhite) !important;
+  }
+  
+  ul.sidemenu a span:first-child.lizicon.lizicon-meter:before {
+    content: "\e496";
+  }
+  
+  span.lizicon.lizicon-books:before {
+    content: "\f19d" !important;
+  }
+  
+  span.lizicon.lizicon-checkmark1:before {
+    content: "\f022" !important;
+  }
+  
+  span.lizicon.lizicon-1-TEP-Connect-Icon-calendar:before {
+    content: "\f51c" !important;
+  }
+  
+  span.lizicon.lizicon-film:before {
+    content: "\f65e" !important;
+  }
+  
+  span.lizicon.lizicon-email1:before {
+    content: "\e1e1";
+  }
+  
+  #my-account-menu li a .my-account-label {
+    bottom: 0 !important;
+  }
+
+#tasklist-body-collapse p:first-of-type {
+    display: none;
+}
+
+
+
+#main-content > div.learner-dashboard-content > section > div.col-lg-6.no-left-padding > div.tovuti-tasklist > span {
+    font-size: 2rem !important;
+    padding-left: 1rem !important;
+    margin-bottom: 0 !important;
+  flex-wrap: wrap;
+}
+
+
+#main-content > div.learner-dashboard-content > section > div.col-lg-6.no-left-padding > div.tovuti-tasklist > button {
+    border-radius: 1.5rem;
+    top: 27px;
+    right: 24px;
+    transform: scale(1);
+  transform-origin: right center;
+    min-width: var(--arcaButtonHeight);
+    min-height: var(--arcaButtonHeight);
+    max-width: var(--arcaButtonHeight);
+    max-height: var(--arcaButtonHeight);
+    background-color: var(--arcaBrandRed);
+    color: var(--arcaBrandWhite);
+}                                                         
+
+.top-dropdown {
+  color: rgba(0,0,0,.25);
+}
+
+.top-dropdown:hover, a.dropdown-toggles {
+  color: rgba(0,0,0,.75) !important;
+  margin: auto !important;
+}
+
+.tov-task-list-header-wrap {
+  margin: 0 !important;
+}
+
+
+#share_social_links:hover {
+    color: inherit !important;
+    cursor: pointer;
+}
+
+.axsNav a {
+  color: var(--arcaBrandWhite);
+}
+
+
+#tasklist-body-collapse > div > div.nano-content > div > button.task-collapse {
+  border: 1px solid rgba(50,50,50,.1) !important;
+  padding: var(--padding-2);
+  margin-right: 16px !important;
+  margin-bottom: 16px;
+}
+
+#tasklist-body-collapse > div > div.nano-content > div {
+  display: flex-column;
+  padding: 1rem !important;
+  min-height: 60px !important;
+}
+
+.tovuti-tasklist-list-item li:last-child, #tasklist-body-collapse > div > div.nano-content {
+  margin-bottom: .5rem !important;
+}
+
+#tasklist-body-collapse > div > div.nano-content > div {
+  height: auto !important;
+}
+
+#main-content > div.learner-dashboard-content > section > div.col-lg-6.no-left-padding .checklist-complete-head + div {
+  max-width: 95% !important;
+}
+
+.tovuti-tasklist .open_date {
+  
+ text-align: center !important;
+  width: 100% !important;
+  margin: auto auto !important;
+  
+}
+
+.tovuti-dashboard-belt-column {
+  border: 0 !important;
+}
+
+.#my-account-menu > li > a {
+  padding: 2rem !important;
+}
+
+
+
+/* COPY TEXT */
+.slide-overlay {
+  
+  width: 90% !important;
+}
+
+.slide-overlay h1 {
+  font-size: 1.5rem !important;
+  line-height: 100%;
+}
+
+
+
+@media (min-width: 575.98px) { 
+}
+                              
+@media (min-width: 767.98px) { 
+  
+.slide-overlay h1 {
+  font-size: 4rem !important;
+  width: 75%;
+  margin: auto;
+  line-height: 100%;
+}
+
+}
